@@ -30,19 +30,7 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: Fetch Competitive Programming Stats
-        # Runs the custom Python script we will build. Gracefully skips if not present yet.
-        continue-on-error: true
-        env:
-          CF_HANDLE: nazrulislam_7
-          AC_HANDLE: nazrulislam_7
-          CC_HANDLE: nazrulislam_7
-        run: |
-          if [ -f "scripts/update_cp_stats.py" ]; then
-            python scripts/update_cp_stats.py
-          else
-            echo "Python script not found, skipping..."
-          fi
+
 
       - name: Update WakaTime Stats
         # Stable action for injecting coding time metrics into the README
@@ -66,6 +54,20 @@ jobs:
           COMMIT_MSG: 'Update recent activity'
           MAX_LINES: 5
         continue-on-error: true
+
+      - name: Fetch Competitive Programming Stats
+        # Runs the custom Python script. Placed here so its local changes are not overwritten by the above actions.
+        continue-on-error: true
+        env:
+          CF_HANDLE: nazrulislam_7
+          AC_HANDLE: nazrulislam_7
+          CC_HANDLE: nazrulislam_7
+        run: |
+          if [ -f "scripts/update_cp_stats.py" ]; then
+            python scripts/update_cp_stats.py
+          else
+            echo "Python script not found, skipping..."
+          fi
 
       - name: Auto-Commit Changes
         # Reliable action to detect if any files were changed (by scripts or WakaTime) and commit them automatically
