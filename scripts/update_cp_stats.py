@@ -22,6 +22,7 @@ logger = logging.getLogger(__name__)
 
 # Configurable variables (Fallback to defaults if not in ENV)
 CF_HANDLE = os.getenv("CF_HANDLE", "nazrulislam_7")
+CODEFORCES_API_URL = os.getenv("CODEFORCES_API_URL", "https://codeforces.com/api/user.info?handles=")
 README_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
 SECTION_NAME = "cp_stats"
 LAST_UPDATED_SECTION = "last_updated"
@@ -36,10 +37,12 @@ def fetch_codeforces_stats(handle: str) -> Optional[Dict[str, Any]]:
     Returns:
         Optional[Dict[str, Any]]: A dictionary containing user stats or None if it fails.
     """
-    url = f"https://codeforces.com/api/user.info?handles={handle}"
+    # Construct the full API URL for the given handle
+    url = f"{CODEFORCES_API_URL}{handle}"
     logger.info(f"Fetching Codeforces stats for handle: {handle}")
     
     try:
+        # User-Agent header is required to prevent 403 Forbidden errors from basic scrapers
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=10) as response:
             data = json.loads(response.read().decode('utf-8'))

@@ -97,15 +97,16 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
 
 ---
 
-## 💼 Featured Projects
+## 🚀 Featured Projects & Expertise
 
-| Project | Description | Role/Tech |
-| :--- | :--- | :--- |
-| 🟢 **[BetterCF](https://github.com/mhdnazrul/BetterCF)** | A Chrome extension to seamlessly sync Codeforces solutions to GitHub. | *Frontend & API* |
-| 🟢 **[Shopfinity](#)** | Comprehensive online shopping website and e-commerce platform. | *Full-Stack / DB* |
-| 🟢 **[EasyChat](#)** | Real-time Android messaging application with Firebase backend. | *Kotlin / Firebase* |
-| 🟢 **[Hex Strategy Game](#)** | Interactive AI vs. Human strategy board game. | *Python / AI* |
-| 🟢 **[PUC CSE CGPA Calc](#)** | Open-source academic utility tool for students. | *Contributor* |
+**[BetterCF](https://github.com/mhdnazrul/BetterCF)**
+*Creator & Maintainer* | An open-source extension for Codeforces to improve competitive programming UX.
+
+**Key Expertise & Past Work:**
+- **Shopfinity:** Scalable full-stack e-commerce platform built with React & Node.js (Lead Developer).
+- **EasyChat:** Real-time chat application with WebSocket integration (Creator).
+- **Hex Strategy Game:** Interactive AI vs. Human strategy board game (Python / AI).
+- **PUC CSE CGPA Calc:** Open-source academic utility tool for students (Contributor).
 
 ---
 

@@ -36,7 +36,7 @@ jobs:
 
       - name: Update WakaTime Stats
         # Stable action for injecting coding time metrics into the README
-        uses: athul/waka-readme@master
+        uses: athul/waka-readme@370590ad8da8f54282ed92aa42b7c25ecbd5a9a6
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
@@ -49,7 +49,7 @@ jobs:
         continue-on-error: true
 
       - name: Update Recent Activity
-        uses: jamesgeorge007/github-activity-readme@master
+        uses: jamesgeorge007/github-activity-readme@4aefbfa1c222d70537dc6a02f0519266aab2b1ea
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
