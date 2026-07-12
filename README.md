@@ -15,7 +15,7 @@
 
   <!-- Clean Contact Badges -->
   <a href="https://www.linkedin.com/in/nazrulislam7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://mhdnazrul.github.io/portfolio-website/"><img src="https://img.shields.io/badge/Portfolio-0e75b6?style=for-the-badge&logo=Web&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://nazrul-dev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0e75b6?style=for-the-badge&logo=Web&logoColor=white" alt="Portfolio" /></a>
   <a href="https://codolio.com/profile/nazrulislam_7"><img src="https://img.shields.io/badge/Codolio-8A2BE2?style=for-the-badge&logo=appveyor&logoColor=white" alt="Codolio" /></a>
 </div>
 
