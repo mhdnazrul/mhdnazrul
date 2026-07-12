@@ -131,9 +131,15 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java,js,ts,react,tailwind,bootstrap,figma,nodejs,dotnet,django,flask,kotlin,mongodb,mysql,postgres" alt="Tech Stack" />
-</div>
+| 💻 Languages | 🎨 Frontend & Design | ⚙️ Backend & DB |
+| :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=cpp,c,python,ts,js,cs,java,php&perline=6" alt="Languages" /> | <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css,figma&perline=6" alt=" Frontend & Design Languages" /> | <img src="https://skillicons.dev/icons?i=nodejs,supabase,mysql,postgres,mongodb,dotnet&perline=6" alt="Backend & DB Languages" /> |
+
+<br>
+
+| 🐧 OS & Tools | 📱 Mobile & IoT | 🚀 Others |
+| :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,git,github&perline=6" alt="OS & Tools" /> | <img src="https://skillicons.dev/icons?i=androidstudio,flutter,kotlin,arduino&perline=6" alt=" Mobile & IoT"  /> | <img src="https://skillicons.dev/icons?i=vercel,replit,postman,vscode,firebase&perline=6" alt="Others"  /> |
 
 ---
 
