@@ -50,23 +50,23 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
         <table width="100%">
           <tr>
             <td>Username</td>
-            <td align="right"><b><!-- CF_USERNAME --></b></td>
+            <td align="right"><b><!-- CF_USERNAME -->nazrulislam_7<!-- CF_USERNAME_END --></b></td>
           </tr>
           <tr>
             <td>Rank</td>
-            <td align="right"><b><!-- CF_RANK --></b></td>
+            <td align="right"><b><!-- CF_RANK -->Newbie<!-- CF_RANK_END --></b></td>
           </tr>
           <tr>
             <td>Current Rating</td>
-            <td align="right"><b><!-- CF_CURRENT_RATING --></b></td>
+            <td align="right"><b><!-- CF_CURRENT_RATING -->1085<!-- CF_CURRENT_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Maximum Rating</td>
-            <td align="right"><b><!-- CF_MAX_RATING --></b></td>
+            <td align="right"><b><!-- CF_MAX_RATING -->1207<!-- CF_MAX_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Solved</td>
-            <td align="right"><b><!-- CF_SOLVED --> Problems</b></td>
+            <td align="right"><b><!-- CF_SOLVED -->N/A<!-- CF_SOLVED_END --> Problems</b></td>
           </tr>
           <tr>
             <td colspan="2" align="center"><br><a href="https://codeforces.com/profile/nazrulislam_7">View Profile →</a></td>
@@ -80,19 +80,19 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
         <table width="100%">
           <tr>
             <td>Username</td>
-            <td align="right"><b><!-- CC_USERNAME --></b></td>
+            <td align="right"><b><!-- CC_USERNAME -->nazrulislam_7<!-- CC_USERNAME_END --></b></td>
           </tr>
           <tr>
             <td>Stars</td>
-            <td align="right"><b><!-- CC_STARS --></b></td>
+            <td align="right"><b><!-- CC_STARS -->N/A<!-- CC_STARS_END --></b></td>
           </tr>
           <tr>
             <td>Highest Rating</td>
-            <td align="right"><b><!-- CC_MAX_RATING --></b></td>
+            <td align="right"><b><!-- CC_MAX_RATING -->1423<!-- CC_MAX_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Solved</td>
-            <td align="right"><b><!-- CC_SOLVED --> Problems</b></td>
+            <td align="right"><b><!-- CC_SOLVED -->N/A<!-- CC_SOLVED_END --> Problems</b></td>
           </tr>
           <tr>
             <td colspan="2" align="center"><br><a href="https://www.codechef.com/users/nazrulislam_7">View Profile →</a></td>
@@ -104,19 +104,19 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
         <table width="100%">
           <tr>
             <td>Username</td>
-            <td align="right"><b><!-- AC_USERNAME --></b></td>
+            <td align="right"><b><!-- AC_USERNAME -->nazrulislam_7<!-- AC_USERNAME_END --></b></td>
           </tr>
           <tr>
             <td>Rank Color</td>
-            <td align="right"><b><!-- AC_RANK --></b></td>
+            <td align="right"><b><!-- AC_RANK -->52480th <span class="gray">(Top 40.95%)</span><!-- AC_RANK_END --></b></td>
           </tr>
           <tr>
             <td>Current Rating</td>
-            <td align="right"><b><!-- AC_RATING --></b></td>
+            <td align="right"><b><!-- AC_RATING -->N/A<!-- AC_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Highest Rating</td>
-            <td align="right"><b><!-- AC_MAX_RATING --></b></td>
+            <td align="right"><b><!-- AC_MAX_RATING -->N/A<!-- AC_MAX_RATING_END --></b></td>
           </tr>
           <tr>
             <td colspan="2" align="center"><br><a href="https://atcoder.jp/users/nazrulislam_7">View Profile →</a></td>
@@ -204,6 +204,6 @@ This repository's architecture and automation scripts are open-sourced under the
 
 <p align="center">
   <!-- START_SECTION:last_updated -->
-  <i>Last updated: Auto-generated</i>
+  <i>Last updated: July 12, 2026 at 17:40 UTC</i>
   <!-- END_SECTION:last_updated -->
 </p>

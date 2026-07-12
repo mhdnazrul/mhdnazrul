@@ -108,6 +108,20 @@ def fetch_codechef(handle: str) -> CPStats:
         
     return stats
 
+def replace_stat(content: str, tag: str, value: str) -> str:
+    """Safely replaces a stat without destroying the HTML placeholder."""
+    # If the end tag already exists (subsequent runs), replace the content between them
+    if f"<!-- {tag}_END -->" in content:
+        return re.sub(
+            rf'(<!-- {tag} -->).*?(<!-- {tag}_END -->)', 
+            rf'\g<1>{value}\g<2>', 
+            content, 
+            flags=re.DOTALL
+        )
+    else:
+        # First run: Inject the value and the closing tag to preserve it for future runs
+        return re.sub(rf'<!-- {tag} -->', rf'<!-- {tag} -->{value}<!-- {tag}_END -->', content)
+
 def update_readme(cf: CPStats, cc: CPStats, ac: CPStats) -> None:
     """Replaces placeholders in the README with live stats."""
     try:
@@ -115,23 +129,23 @@ def update_readme(cf: CPStats, cc: CPStats, ac: CPStats) -> None:
             content = f.read()
 
         # Codeforces Replacements
-        content = re.sub(r'<!-- CF_USERNAME -->', cf.username, content)
-        content = re.sub(r'<!-- CF_RANK -->', cf.rank, content)
-        content = re.sub(r'<!-- CF_CURRENT_RATING -->', cf.rating, content)
-        content = re.sub(r'<!-- CF_MAX_RATING -->', cf.max_rating, content)
-        content = re.sub(r'<!-- CF_SOLVED -->', cf.solved, content)
+        content = replace_stat(content, 'CF_USERNAME', cf.username)
+        content = replace_stat(content, 'CF_RANK', cf.rank)
+        content = replace_stat(content, 'CF_CURRENT_RATING', cf.rating)
+        content = replace_stat(content, 'CF_MAX_RATING', cf.max_rating)
+        content = replace_stat(content, 'CF_SOLVED', cf.solved)
 
         # CodeChef Replacements
-        content = re.sub(r'<!-- CC_USERNAME -->', cc.username, content)
-        content = re.sub(r'<!-- CC_STARS -->', cc.stars, content)
-        content = re.sub(r'<!-- CC_MAX_RATING -->', cc.max_rating, content)
-        content = re.sub(r'<!-- CC_SOLVED -->', cc.solved, content)
+        content = replace_stat(content, 'CC_USERNAME', cc.username)
+        content = replace_stat(content, 'CC_STARS', cc.stars)
+        content = replace_stat(content, 'CC_MAX_RATING', cc.max_rating)
+        content = replace_stat(content, 'CC_SOLVED', cc.solved)
 
         # AtCoder Replacements
-        content = re.sub(r'<!-- AC_USERNAME -->', ac.username, content)
-        content = re.sub(r'<!-- AC_RANK -->', ac.rank, content)
-        content = re.sub(r'<!-- AC_RATING -->', ac.rating, content)
-        content = re.sub(r'<!-- AC_MAX_RATING -->', ac.max_rating, content)
+        content = replace_stat(content, 'AC_USERNAME', ac.username)
+        content = replace_stat(content, 'AC_RANK', ac.rank)
+        content = replace_stat(content, 'AC_RATING', ac.rating)
+        content = replace_stat(content, 'AC_MAX_RATING', ac.max_rating)
 
         # Handle last_updated section
         now_utc = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
