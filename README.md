@@ -24,11 +24,11 @@
 
 I am a **passionate Full-Stack Developer** and **UI/UX Designer** with strong problem-solving skills and a growth mindset. I bridge the gap between elegant interfaces and robust backend systems. Always eager to explore **new technologies**, my goal is to build user-friendly, scalable applications that make a tangible impact. 
 
-* 🔭 **Currently working on:** E-Commerce Web Applications
+* 🔭 **Currently working on:** Chrome Extension [BetterCF](https://github.com/mhdnazrul/BetterCF)
 * 🌱 **Currently learning:** Advanced `C#`, `.Net` `Next.js`, `IoT Integration`
 * 🤝 **Looking to collaborate on:** Open-source Web & IoT Projects
 * 💬 **Ask me about:** Full-Stack Dev, React, Python, UI/UX, IoT
-* 📫 **How to reach me:** [mhdnazrulislam.com](https://mhdnazrul.github.io/portfolio-website/)
+* 📫 **How to reach me:** [mhdnazrulislam.com](https://nazrul-dev.vercel.app/)
 * 📄 **My Resume:** [View My Resume](https://drive.google.com/drive/folders/14cFhmLg6xP1itEozI6ePPj0oHbRUHCYa?usp=sharing)
 
 ---
