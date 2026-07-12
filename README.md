@@ -179,7 +179,7 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
 - **Shopfinity:** Scalable full-stack e-commerce platform built with React & Node.js (Lead Developer).
 - **EasyChat:** Real-time chat application with WebSocket integration (Creator).
 - **Hex Strategy Game:** Interactive AI vs. Human strategy board game (Python / AI).
-- **PUC CSE CGPA Calc:** Open-source academic utility tool for students (Contributor).
+- **winutil:** Chris Titus Tech's Windows Utility(Contributor).
 
 ---
 
