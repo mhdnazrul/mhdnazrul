@@ -76,7 +76,7 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
   <table>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=mhdnazrul&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="100%" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=mhdnazrul&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="100%" />
       </td>
       <td width="50%">
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=mhdnazrul&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="100%" />
@@ -84,7 +84,7 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
     </tr>
   </table>
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdnazrul&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" width="60%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mhdnazrul&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" width="60%" />
 
 
   <!-- Contribution Grid Snake -->
