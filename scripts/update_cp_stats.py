@@ -150,12 +150,7 @@ def update_readme(cf: CPStats, cc: CPStats, ac: CPStats) -> None:
         # Handle last_updated section
         now_utc = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
         last_updated_md = f"<i>Last updated: {now_utc}</i>"
-        content = re.sub(
-            r'(<!-- START_SECTION:last_updated -->\n).*?(\n\s*<!-- END_SECTION:last_updated -->)',
-            rf'\g<1>  {last_updated_md}\g<2>',
-            content,
-            flags=re.DOTALL
-        )
+        content = replace_stat(content, 'LAST_UPDATED', last_updated_md)
 
         with open(README_PATH, "w", encoding="utf-8") as f:
             f.write(content)
