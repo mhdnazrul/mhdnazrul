@@ -189,31 +189,38 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
 
 ## 📜 License
 
-This repository's architecture and automation scripts are open-sourced under the [MIT License](LICENSE). Feel free to fork and adapt them for your own developer profile!
+This repository's architecture and automation scripts are open-sourced under the [MIT License](LICENSE).
 
 ---
 
-## ⏱️ Coding Activity
+## ⚡ Live Developer Dashboard
 
-<!-- START_SECTION:waka -->
-*(WakaTime metrics will automatically populate here once your secret is configured and the GitHub Action runs)*
-<!-- END_SECTION:waka -->
+### ⏱ Weekly Coding Activity
+
+<!--START_SECTION:waka-->
+Updating automatically...
+<!--END_SECTION:waka-->
+
+### 🌟 Recent GitHub Activity
+
+<!--START_SECTION:activity-->
+Updating automatically...
+<!--END_SECTION:activity-->
+
+### 📅 Last Updated
+
+<p align="center">
+<sub><!-- LAST_UPDATED --></sub>
+</p>
 
 ---
 
-## 🌟 Recent Activity
+<div align="center">
 
-<!-- START_SECTION:activity -->
-*(Recent GitHub activity will automatically populate here via GitHub Actions)*
-<!-- END_SECTION:activity -->
+Thank you for visiting my profile! ❤️
 
-<br>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mhdnazrul&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-</p>
+If you find my projects useful, consider giving them a ⭐.
 
-<p align="center">
-  <!-- START_SECTION:last_updated -->
-  <i>Last updated: July 12, 2026 at 17:40 UTC</i>
-  <!-- END_SECTION:last_updated -->
-</p>
+Happy Coding 🚀
+
+</div>
