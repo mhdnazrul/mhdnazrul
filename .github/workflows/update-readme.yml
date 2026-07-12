@@ -1,0 +1,66 @@
+name: Update README
+
+on:
+  schedule:
+    # Runs at 00:30 UTC every day (shortly after the snake generation)
+    - cron: "30 0 * * *"
+  # Allows you to trigger the workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  # The workflow requires 'write' access to commit changes back to the main branch
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Fetch Competitive Programming Stats
+        # Runs the custom Python script we will build. Gracefully skips if not present yet.
+        run: |
+          if [ -f "scripts/update_cp_stats.py" ]; then
+            python scripts/update_cp_stats.py
+          else
+            echo "Python script not found, skipping..."
+          fi
+
+      - name: Update WakaTime Stats
+        # Stable action for injecting coding time metrics into the README
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          SECTION_NAME: waka
+          BLOCKS: ->
+          TIME_RANGE: last_7_days
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+        # continue-on-error prevents workflow failure if the user hasn't added the WAKATIME secret yet
+        continue-on-error: true
+
+      - name: Update Recent Activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: 'Update recent activity'
+          MAX_LINES: 5
+        continue-on-error: true
+
+      - name: Auto-Commit Changes
+        # Reliable action to detect if any files were changed (by scripts or WakaTime) and commit them automatically
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: automatically update README stats"
+          branch: main
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"

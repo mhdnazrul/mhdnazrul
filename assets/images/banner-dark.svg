@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#161B22" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#bc8cff" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="1" />
+    </pattern>
+  </defs>
+  
+  <rect width="800" height="200" fill="url(#bg-grad)" rx="15" />
+  <rect width="800" height="200" fill="url(#grid)" rx="15" />
+  
+  <!-- Content -->
+  <g transform="translate(40, 80)">
+    <text x="0" y="0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="36" font-weight="bold" fill="#ffffff">
+      Nazrul Islam
+    </text>
+    <text x="0" y="35" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" font-weight="500" fill="url(#text-grad)">
+      Full Stack Developer &amp; Competitive Programmer
+    </text>
+    <text x="0" y="70" font-family="'Fira Code', monospace" font-size="14" fill="#8b949e">
+      <tspan>&lt;code&gt;</tspan> Building scalable backend systems &amp; solving complex algorithms <tspan>&lt;/code&gt;</tspan>
+    </text>
+  </g>
+  
+  <!-- Abstract Shapes -->
+  <circle cx="680" cy="100" r="50" fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.5" />
+  <circle cx="710" cy="120" r="30" fill="none" stroke="#bc8cff" stroke-width="2" opacity="0.3" />
+  <path d="M 600 50 L 650 150 L 750 80 Z" fill="none" stroke="#79c0ff" stroke-width="1" opacity="0.2" />
+</svg>
