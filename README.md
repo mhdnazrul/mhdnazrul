@@ -37,24 +37,91 @@ I am a passionate **Full-Stack Developer** and **Competitive Programmer** driven
 As a competitive programmer, I continuously refine my algorithmic problem-solving skills. 
 
 <div align="center">
-  <table>
+  <table width="100%">
     <tr>
-      <td align="center" width="50%">
+      <td align="center" width="50%" valign="top">
         <b>LeetCode</b><br>
         <a href="https://leetcode.com/u/nazrulislam_7/">
           <img src="https://leetcard.jacoblin.cool/nazrulislam_7?theme=tokyonight&font=Fira%20Code&ext=activity" alt="LeetCode Stats" width="100%" />
         </a>
       </td>
-      <td align="center" width="50%">
-        <b>Codeforces & Others</b><br>
-        <br>
-        <a href="https://codeforces.com/profile/nazrulislam_7"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" /></a><br><br>
-        <a href="https://www.codechef.com/users/nazrulislam_7"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a><br><br>
-        <a href="https://www.hackerrank.com/profile/nazrulislam_7"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
-        <br><br>
-        <!-- Custom CP Stats to be injected by our future Python script -->
-        <!-- START_SECTION:cp_stats -->
-        <!-- END_SECTION:cp_stats -->
+      <td align="center" width="50%" valign="top">
+        <b>Codeforces</b><br>
+        <table width="100%">
+          <tr>
+            <td>Username</td>
+            <td align="right"><b><!-- CF_USERNAME --></b></td>
+          </tr>
+          <tr>
+            <td>Rank</td>
+            <td align="right"><b><!-- CF_RANK --></b></td>
+          </tr>
+          <tr>
+            <td>Current Rating</td>
+            <td align="right"><b><!-- CF_CURRENT_RATING --></b></td>
+          </tr>
+          <tr>
+            <td>Maximum Rating</td>
+            <td align="right"><b><!-- CF_MAX_RATING --></b></td>
+          </tr>
+          <tr>
+            <td>Solved</td>
+            <td align="right"><b><!-- CF_SOLVED --> Problems</b></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><br><a href="https://codeforces.com/profile/nazrulislam_7">View Profile →</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%" valign="top">
+        <b>CodeChef</b><br>
+        <table width="100%">
+          <tr>
+            <td>Username</td>
+            <td align="right"><b><!-- CC_USERNAME --></b></td>
+          </tr>
+          <tr>
+            <td>Stars</td>
+            <td align="right"><b><!-- CC_STARS --></b></td>
+          </tr>
+          <tr>
+            <td>Highest Rating</td>
+            <td align="right"><b><!-- CC_MAX_RATING --></b></td>
+          </tr>
+          <tr>
+            <td>Solved</td>
+            <td align="right"><b><!-- CC_SOLVED --> Problems</b></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><br><a href="https://www.codechef.com/users/nazrulislam_7">View Profile →</a></td>
+          </tr>
+        </table>
+      </td>
+      <td align="center" width="50%" valign="top">
+        <b>AtCoder</b><br>
+        <table width="100%">
+          <tr>
+            <td>Username</td>
+            <td align="right"><b><!-- AC_USERNAME --></b></td>
+          </tr>
+          <tr>
+            <td>Rank Color</td>
+            <td align="right"><b><!-- AC_RANK --></b></td>
+          </tr>
+          <tr>
+            <td>Current Rating</td>
+            <td align="right"><b><!-- AC_RATING --></b></td>
+          </tr>
+          <tr>
+            <td>Highest Rating</td>
+            <td align="right"><b><!-- AC_MAX_RATING --></b></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><br><a href="https://atcoder.jp/users/nazrulislam_7">View Profile →</a></td>
+          </tr>
+        </table>
       </td>
     </tr>
   </table>
