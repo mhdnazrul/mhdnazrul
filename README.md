@@ -109,6 +109,12 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
 
 ---
 
+## 📜 License
+
+This repository's architecture and automation scripts are open-sourced under the [MIT License](LICENSE). Feel free to fork and adapt them for your own developer profile!
+
+---
+
 ## ⏱️ Coding Activity
 
 <!-- START_SECTION:waka -->

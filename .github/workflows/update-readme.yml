@@ -7,13 +7,15 @@ on:
   # Allows you to trigger the workflow manually from the Actions tab
   workflow_dispatch:
 
-permissions:
-  # The workflow requires 'write' access to commit changes back to the main branch
-  contents: write
+# By default, drop all global permissions for security
+permissions: {}
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      # Scoped strictly to this job. Required by git-auto-commit-action to push changes to 'main'.
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

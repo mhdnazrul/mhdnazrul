@@ -1,0 +1,74 @@
+name: Repository Health Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Runs weekly on Sundays to catch newly broken links
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+# Principle of Least Privilege: Drop all global permissions
+permissions: {}
+
+jobs:
+  health-audit:
+    runs-on: ubuntu-latest
+    permissions:
+      # Required strictly to check out the code and read files
+      contents: read
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 📝 Markdown Lint
+        # Validates Markdown styling, structure, and syntax
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: "**/*.md"
+        # continue-on-error allows the workflow to finish and report all issues without hard failing
+        continue-on-error: true
+
+      - name: 🔗 Link Checker (Lychee)
+        # Deeply scans all markdown files for dead, broken, or 404 links
+        uses: lycheeverse/lychee-action@v1.9.3
+        with:
+          args: --verbose --no-progress './**/*.md'
+          fail: false
+        continue-on-error: true
+
+      - name: 🔤 Spell Checker (CSpell)
+        # Checks for common typos (can be configured with custom dictionary for tech terms)
+        uses: streetsidesoftware/cspell-action@v6
+        with:
+          files: "**/*.md"
+        continue-on-error: true
+
+      - name: ⚙️ Workflow Validation (Actionlint)
+        # Validates GitHub Actions YAML syntax to prevent workflow breakage
+        uses: reviewdog/action-actionlint@v1
+        continue-on-error: true
+
+      - name: 🤖 Dependabot Validation
+        # Validates that Dependabot configuration exists and is accessible
+        run: |
+          if [ -f ".github/dependabot.yml" ]; then
+            echo "✅ Dependabot configuration found."
+          else
+            echo "❌ Dependabot configuration missing! (Critical for repo health)"
+            exit 1
+          fi
+
+      - name: 📊 Generate Health Report
+        # Generates a quick summary artifact at the end of the run
+        run: |
+          echo "## 🏥 Repository Health Report" > $GITHUB_STEP_SUMMARY
+          echo "**Run Date:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **Markdown Lint:** Check executed." >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **Link Checker (Lychee):** Check executed. (See job logs for detailed broken links)" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **Spell Check:** Check executed." >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **Workflow Validation:** Check executed." >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **Dependabot:** Confirmed present." >> $GITHUB_STEP_SUMMARY

@@ -7,13 +7,15 @@ on:
   # Allows you to trigger the workflow manually from the Actions tab
   workflow_dispatch:
 
-permissions:
-  # The workflow requires 'write' access to push the generated SVG files back to the repository
-  contents: write
+# By default, drop all global permissions for security
+permissions: {}
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      # Scoped strictly to the build job. Required to push SVG files to the 'output' branch.
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
