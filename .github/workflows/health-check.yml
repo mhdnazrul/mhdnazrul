@@ -42,7 +42,7 @@ jobs:
 
       - name: 🔤 Spell Checker (CSpell)
         # Checks for common typos (can be configured with custom dictionary for tech terms)
-        uses: streetsidesoftware/cspell-action@v6
+        uses: streetsidesoftware/cspell-action@v8
         with:
           files: "**/*.md"
         continue-on-error: true
