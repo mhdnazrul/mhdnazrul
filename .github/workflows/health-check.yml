@@ -34,7 +34,7 @@ jobs:
 
       - name: 🔗 Link Checker (Lychee)
         # Deeply scans all markdown files for dead, broken, or 404 links
-        uses: lycheeverse/lychee-action@v1.9.3
+        uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: --verbose --no-progress './**/*.md'
           fail: false
