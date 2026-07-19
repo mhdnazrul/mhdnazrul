@@ -26,7 +26,7 @@ jobs:
 
       - name: 📝 Markdown Lint
         # Validates Markdown styling, structure, and syntax
-        uses: DavidAnson/markdownlint-cli2-action@v15
+        uses: DavidAnson/markdownlint-cli2-action@v24
         with:
           globs: "**/*.md"
         # continue-on-error allows the workflow to finish and report all issues without hard failing
