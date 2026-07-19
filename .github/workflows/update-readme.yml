@@ -71,7 +71,7 @@ jobs:
 
       - name: Auto-Commit Changes
         # Reliable action to detect if any files were changed (by scripts or WakaTime) and commit them automatically
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: automatically update README stats"
           branch: main
