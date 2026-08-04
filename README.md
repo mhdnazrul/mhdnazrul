@@ -204,7 +204,7 @@ Updating automatically...
 ### 🌟 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2](https://github.com/mhdnazrul/CodeforcesSync/issues/2#issuecomment-5159871333) in [mhdnazrul/CodeforcesSync](https://github.com/mhdnazrul/CodeforcesSync)
+1. ❗ Opened issue [#1](https://github.com/Jay25-Git/Leetify-for-Codeforces/issues/1) in [Jay25-Git/Leetify-for-Codeforces](https://github.com/Jay25-Git/Leetify-for-Codeforces)
 <!--END_SECTION:activity-->
 
 ### 📅 Last Updated
