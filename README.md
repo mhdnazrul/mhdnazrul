@@ -31,7 +31,7 @@ I am a passionate **Full-Stack Developer** and **Competitive Programmer** driven
 
 - 🔭 **Currently working on:** [BetterCF](https://github.com/mhdnazrul/BetterCF) (Chrome Extension for Codeforces)
 - 🌱 **Currently learning:** Advanced `C#`, `.NET`, `Next.js`, and `IoT Integration`
-- 🎯 **Focus:** System Design, Algorithm Optimization, and Clean Code
+- 🎯 **Focus:** System Design, Algorithm Optimisation, and Clean Code
 - 📫 **Reach me:** [mhdnazrulislam.com](https://nazrul-dev.vercel.app/) | [Resume](https://drive.google.com/drive/folders/14cFhmLg6xP1itEozI6ePPj0oHbRUHCYa?usp=sharing)
 
 ---
