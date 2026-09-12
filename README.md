@@ -204,7 +204,7 @@ Updating automatically...
 ### 🌟 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#1](https://github.com/Jay25-Git/Leetify-for-Codeforces/issues/1) in [Jay25-Git/Leetify-for-Codeforces](https://github.com/Jay25-Git/Leetify-for-Codeforces)
+1. 💪 Opened PR [#5082](https://github.com/ChrisTitusTech/winutil/pull/5082) in [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 <!--END_SECTION:activity-->
 
 ### 📅 Last Updated
