@@ -58,11 +58,11 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
           </tr>
           <tr>
             <td>Rank</td>
-            <td align="right"><b><!-- CF_RANK -->Newbie<!-- CF_RANK_END --></b></td>
+            <td align="right"><b><!-- CF_RANK -->Pupil<!-- CF_RANK_END --></b></td>
           </tr>
           <tr>
             <td>Current Rating</td>
-            <td align="right"><b><!-- CF_CURRENT_RATING -->1116<!-- CF_CURRENT_RATING_END --></b></td>
+            <td align="right"><b><!-- CF_CURRENT_RATING -->1205<!-- CF_CURRENT_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Maximum Rating</td>
@@ -112,7 +112,7 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
           </tr>
           <tr>
             <td>Rank Color</td>
-            <td align="right"><b><!-- AC_RANK -->52680th <span class="gray">(Top 41.36%)</span><!-- AC_RANK_END --></b></td>
+            <td align="right"><b><!-- AC_RANK -->52541st <span class="gray">(Top 41.25%)</span><!-- AC_RANK_END --></b></td>
           </tr>
           <tr>
             <td>Current Rating</td>
@@ -210,7 +210,7 @@ Updating automatically...
 ### 📅 Last Updated
 
 <p align="center">
-<sub><!-- LAST_UPDATED --><i>Last updated: September 18, 2026 at 20:38 UTC</i><!-- LAST_UPDATED_END --></sub>
+<sub><!-- LAST_UPDATED --><i>Last updated: September 19, 2026 at 20:16 UTC</i><!-- LAST_UPDATED_END --></sub>
 </p>
 
 ---
