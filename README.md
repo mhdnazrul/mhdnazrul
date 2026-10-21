@@ -92,7 +92,7 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
           </tr>
           <tr>
             <td>Highest Rating</td>
-            <td align="right"><b><!-- CC_MAX_RATING -->1423<!-- CC_MAX_RATING_END --></b></td>
+            <td align="right"><b><!-- CC_MAX_RATING -->N/A<!-- CC_MAX_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Solved</td>
@@ -210,7 +210,7 @@ Updating automatically...
 ### 📅 Last Updated
 
 <p align="center">
-<sub><!-- LAST_UPDATED --><i>Last updated: October 20, 2026 at 21:23 UTC</i><!-- LAST_UPDATED_END --></sub>
+<sub><!-- LAST_UPDATED --><i>Last updated: October 21, 2026 at 21:25 UTC</i><!-- LAST_UPDATED_END --></sub>
 </p>
 
 ---
