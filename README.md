@@ -62,11 +62,11 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
           </tr>
           <tr>
             <td>Current Rating</td>
-            <td align="right"><b><!-- CF_CURRENT_RATING -->1264<!-- CF_CURRENT_RATING_END --></b></td>
+            <td align="right"><b><!-- CF_CURRENT_RATING -->1286<!-- CF_CURRENT_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Maximum Rating</td>
-            <td align="right"><b><!-- CF_MAX_RATING -->1264<!-- CF_MAX_RATING_END --></b></td>
+            <td align="right"><b><!-- CF_MAX_RATING -->1286<!-- CF_MAX_RATING_END --></b></td>
           </tr>
           <tr>
             <td>Solved</td>
@@ -210,7 +210,7 @@ Updating automatically...
 ### 📅 Last Updated
 
 <p align="center">
-<sub><!-- LAST_UPDATED --><i>Last updated: October 22, 2026 at 21:20 UTC</i><!-- LAST_UPDATED_END --></sub>
+<sub><!-- LAST_UPDATED --><i>Last updated: October 23, 2026 at 21:10 UTC</i><!-- LAST_UPDATED_END --></sub>
 </p>
 
 ---
