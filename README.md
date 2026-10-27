@@ -112,7 +112,7 @@ As a competitive programmer, I continuously refine my algorithmic problem-solvin
           </tr>
           <tr>
             <td>Rank Color</td>
-            <td align="right"><b><!-- AC_RANK -->52171st <span class="gray">(Top 41.45%)</span><!-- AC_RANK_END --></b></td>
+            <td align="right"><b><!-- AC_RANK -->52171st <span class="gray">(Top 41.46%)</span><!-- AC_RANK_END --></b></td>
           </tr>
           <tr>
             <td>Current Rating</td>
@@ -210,7 +210,7 @@ Updating automatically...
 ### 📅 Last Updated
 
 <p align="center">
-<sub><!-- LAST_UPDATED --><i>Last updated: October 26, 2026 at 22:26 UTC</i><!-- LAST_UPDATED_END --></sub>
+<sub><!-- LAST_UPDATED --><i>Last updated: October 27, 2026 at 21:57 UTC</i><!-- LAST_UPDATED_END --></sub>
 </p>
 
 ---
